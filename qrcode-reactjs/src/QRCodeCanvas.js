@@ -6,7 +6,7 @@ export default function QRCodeCanvas({text}) {
     const canvasRef = useRef()
 
     useEffect(()=>{
-        QRCode.toCanvas(canvasRef.current, text, {width:250, display:'block', margin:2, paddingBottom:20}, (error) =>{
+        QRCode.toCanvas(canvasRef.current, text, {width:250, display:'block', margin:2, paddingBottom:20 }, (error) =>{
             console.log(error)
         })
     }, [text])

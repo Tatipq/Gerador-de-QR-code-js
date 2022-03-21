@@ -19,7 +19,7 @@
   pointer-events: none;
 }
 
-@media ((max-width: 768px)) {
+@media (max-width: 768px) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
@@ -42,12 +42,12 @@
   .App {
     height: 100vmin;
     text-align: center;
-    display: flex;
+    
     background-image: linear-gradient(135deg, rgba(91, 85, 225) 0%, rgba(4, 191, 205) 100%);
-    padding:30px 10px;
-    border-radius: 15px;
-    margin: 0px 80px;
+    padding:0px 10px;
+    margin-left: 10px;
     flex-direction: column;
+    padding-bottom: 320px;
     }  
 }
 
