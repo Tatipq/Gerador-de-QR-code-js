@@ -8,6 +8,7 @@ function App() {
   const [text, setText] = useState("")
   return (  
     <div className="App"  id="App">
+      <p>Gerador de QR code</p>
       <a href="App.js" ><img src={imgQrcode}width="150" height="150"></img></a>
       <input onChange={(element)=>{setText(element.target.value)}} value={text}></input>
       <QRCodeCanvas text={text}></QRCodeCanvas>

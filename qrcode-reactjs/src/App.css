@@ -11,12 +11,21 @@
 #App.App img {
   max-height: 250px;
   max-width: 200px;
-  padding-top: 20px;
+  padding-top: 0px;
 }
 
 .App-logo {
   height: 50vmin;
   pointer-events: none;
+}
+.App p {
+  padding-top: 30px;
+  padding-bottom: 15px;
+  font-size: 25px;
+  color: #fff;
+  line-height: 24px;
+  margin-bottom: 0;
+  font-family: "poppins", sans-serif;
 }
 
 @media (max-width: 768px) {
