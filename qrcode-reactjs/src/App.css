@@ -4,12 +4,14 @@
   text-align: center;
   background-image: linear-gradient(135deg, rgba(91, 85, 225) 0%, rgba(4, 191, 205) 100%);
   border-radius: 15px;
-  padding-bottom: 50px;
+  padding-bottom: 150px;
 
   
 }
 #App.App img {
-  max-height: 40px;
+  max-height: 250px;
+  max-width: 200px;
+  padding-top: 20px;
 }
 
 .App-logo {
